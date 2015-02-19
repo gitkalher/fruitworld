@@ -9,7 +9,7 @@
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 
-	<name>Spring MVC Test project</name>
+	<name>Fruit World using spring MVC</name>
 	<url>http://www.fruitworld.com/projects/</url>
 
 	<properties>
