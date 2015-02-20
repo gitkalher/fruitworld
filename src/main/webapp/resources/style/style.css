@@ -1,0 +1,41 @@
+
+body {
+	background-color: #e0e0ff;
+	padding: 0px;
+	color: black;
+}
+
+
+header {
+	background-color: #ffffff;
+	padding: 4px;
+	border: 2px solid #cbcbcb;
+	margin-bottom: 5px;
+	min-height: 10%;
+}
+
+nav {
+	background-color: #293315;
+	padding: 4px;
+	border: 1px solid #c0c0c0;
+	min-height: 5%;
+}
+
+nav>a {
+	color: #ffffff;
+	text-decoration: none;
+	padding-right: 20px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+main {
+	min-height: 60%;
+}
+
+footer {
+	background-color: #ffffff;
+	padding: 4px;
+	border: 2px solid #c0c0c0;
+	min-height: 10%;
+}

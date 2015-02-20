@@ -2,20 +2,22 @@
 <%@ page session="false"%>
 <html>
 <head>
-<title>Home</title>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" 	href="resources/style/style.css"/>
 </head>
 <body>
-	<h1>Welcome to Fruit World.</h1>
+	<header>
+		<h1>Welcome to Fruit World.</h1>
+	</header>
 
-	<P>The time on the server is ${serverTime}.</P>
+	<%@ include file="navigation_bar.jsp" %>
 
-	<nav>
-		<a href="aboutus">About us</a> 
-		<a href="contacts">Contacts</a> 
-		<a href="products">Products</a>
-		<a href="services">Services</a>
-	</nav>
-
+	<main>
+		<P>The time on the server is ${serverTime}.</P>
+	</main>
+	
+	<%@ include file="footer.jsp" %>
+	
 </body>
 </html>
 

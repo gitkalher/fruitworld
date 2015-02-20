@@ -2,12 +2,23 @@
 <%@ page session="false"%>
 <html>
 <head>
-<title>About Us</title>
+	<title>About Us</title>
+	<link rel="stylesheet" type="text/css" 	href="resources/style/style.css"/>
 </head>
 <body>
-	<h1>About Us</h1>
 
-	<P>We are Fruit World and deals in fruits and vegitables.</P>
+	<header>
+		<h1>About Us</h1>
+	</header>
+
+	<%@ include file="navigation_bar.jsp" %>
+	
+	<main>
+		<P>We are Fruit World and deals in fruits and vegitables.</P>
+	</main>
+	
+	<%@ include file="footer.jsp" %>
+	
 </body>
 </html>
 
